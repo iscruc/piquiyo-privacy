@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — Piquiyo LinkedIn Capture</title>
+<style>
+  body { font-family: system-ui, -apple-system, sans-serif; max-width: 720px;
+    margin: 48px auto; padding: 0 20px; color: #1C1915; line-height: 1.6; }
+  h1 { font-size: 26px; } h2 { font-size: 18px; margin-top: 28px; }
+  code { background: #F4F2EE; padding: 1px 5px; border-radius: 4px; }
+  .date { color: #8A8079; font-size: 14px; }
+  a { color: #B4472F; }
+</style></head><body>
+<h1>Privacy Policy — Piquiyo LinkedIn Capture</h1>
+<p class="date">Last updated: 2026-07-21</p>
+<p><strong>Piquiyo LinkedIn Capture</strong> is an internal tool for the Piquiyo
+team. It reads <strong>your own</strong> LinkedIn post data from your logged-in
+browser session and sends it to a Piquiyo-controlled ingest API so it can appear
+in the Piquiyo back office.</p>
+<h2>What the extension accesses</h2>
+<ul>
+  <li><strong>Your own LinkedIn post content and metrics</strong> — post text,
+  type, permalink, the post's activity URN (used to derive its date), and visible
+  engagement (reactions, comments, reposts) and impressions, read from LinkedIn
+  pages you are already viewing while logged in as yourself.</li>
+  <li><strong>A personal access token and the ingest URL</strong> you enter in the
+  extension settings. These are stored <strong>locally in your browser</strong>
+  (<code>chrome.storage.local</code>) and are only sent to the ingest endpoint you
+  configure.</li>
+</ul>
+<h2>What it does with that data</h2>
+<ul>
+  <li>The captured post data is sent <strong>only</strong> to the Piquiyo ingest
+  API URL you set (a Piquiyo-controlled <code>*.onrender.com</code> service),
+  authenticated with your token, and stored in Piquiyo's own database for use in
+  the back office.</li>
+  <li>Data is <strong>not</strong> sold, shared with third parties, or used for
+  advertising.</li>
+  <li>No analytics, tracking pixels, or remote code are loaded by the extension.</li>
+</ul>
+<h2>What it does NOT do</h2>
+<ul>
+  <li>It does not read other people's private data — only the posts visible to you
+  on your own profile/activity pages.</li>
+  <li>It does not access your LinkedIn password or credentials.</li>
+  <li>It does not run in the background on non-LinkedIn sites.</li>
+</ul>
+<h2>Data retention &amp; contact</h2>
+<p>Captured data lives in Piquiyo's back-office database and is managed by Piquiyo.
+For access, correction, or deletion requests, contact
+<a href="mailto:ismaelcruc@gmail.com">ismaelcruc@gmail.com</a>.</p>
+</body></html>
